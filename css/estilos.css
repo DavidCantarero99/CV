@@ -1,0 +1,155 @@
+#Principal {
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/*INICIO SECCION 1 */
+#section1 {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.icono{
+  color: #ebaa00;
+}
+.foto {
+  background-image: url("../img/perfil.jpg");
+  border-radius: 10px;
+  width: 380px;
+  height: 355px;
+  background-size: cover;
+  padding: 10px;
+}
+.Nombre {
+  display: flex;
+  font-size: 25px;
+  text-align: justify;
+  padding-left: 40px;
+  color: #ebaa00;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 900px;
+}
+.lista1 {
+  display: flex;
+  padding-left: 20px;
+  font-size: 1.3em;
+  color: #ebaa00;
+}
+/*FINAL SECCION 1*/
+
+/*INICIO SECCION 2*/
+#section2 {
+  background-color: #ffffff;
+  color: #242424;
+  border-radius: 10px;
+  display: flex;
+}
+.contenedor-educacion {
+    display: flex;
+    padding: 5px;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  }
+/*FINAL SECCION 2*/
+
+/*Inicio Seccion 3*/
+.habilidades{
+   color: #ebaa00;
+    display: flex;
+    justify-content: center;
+}
+.iconos-habilidades {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+/*Final Seccion 3*/
+
+/*Inicio Seccion 4*/
+#section4 {
+  color: #ebaa00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactos{
+display: flex;
+justify-content: center;
+}
+/*Final seccion 4*/
+
+body {
+  background-color: #242424;
+}
+h4 {
+    font-family: 'ubuntu','Courier New', Courier, monospace;
+}
+h3{
+    font-family: 'ubuntu','Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+li{
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+
+/*Medias Queries*/
+
+/* Extra small devices (phones, 600px and down) */
+@media(max-width: 600px) 
+{
+
+#Principal{
+ width: auto;
+ gap: 10px;
+ margin: 0%;
+ padding: 0%;
+ justify-content: center;
+ align-items: center;
+}
+
+#section1{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+#section2{
+  width: auto;
+}
+#section3{
+  width: auto;
+}
+#section4{
+  width: auto;
+}
+.foto{
+  width: auto;
+}
+.info{
+  width: auto;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */
